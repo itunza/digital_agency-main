@@ -1,0 +1,20 @@
+@tailwind base;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+  font-family: "Light";
+  src: local("Gopher-Regular"), url("./font/Gopher/Gopher-Regular.ttf") format("truetype") ;
+} 
+
+@font-face {
+  font-family: "Proxima"; 
+  src: local("FontsFree-Net-ProximaNova-Regular") , url("./font/Proxima/FontsFree-Net-ProximaNova-Regular.ttf") format("truetype");
+}
